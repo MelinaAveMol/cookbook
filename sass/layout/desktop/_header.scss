@@ -1,0 +1,20 @@
+////*header*///{
+/*body {padding: 2em}     /* Todos los rellenos valen 2em */
+/*body {padding: 1em 2em} /* Superior e inferior = 1em, Izquierdo y derecho = 2em */
+/*body {padding: 1em 2em 3em} /* Superior = 1em, derecho = 2em, inferior = 3em, izquierdo = 2em */
+/*body {padding: 1em 2em 3em 4em} /* Superior = 1em, derecho = 2em, inferior = 3em, izquierdo = 4em } */
+
+
+.header-main{
+    padding:1em 2em;
+    margin: 0 auto; 
+    display:flex;
+}
+
+.header-main-title h1{
+    color: $primary-color;    
+}
+
+.header-main-menu-element{
+    font-family: $font-stack-generic;
+}
