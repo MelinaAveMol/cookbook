@@ -425,6 +425,11 @@ a:hover, a:focus {
   outline-offset: 0;
 }
 
+.header-main {
+  padding-top: 5%;
+  padding-left: 5%;
+}
+
 .mobile-five-columns {
   display: flex;
   justify-content: space-between;
