@@ -428,6 +428,11 @@ a:hover, a:focus {
 .header-main {
   padding-top: 5%;
   padding-left: 5%;
+  max-width: 980px;
+}
+
+.header-main-title h2 {
+  color: red;
 }
 
 .mobile-five-columns {
