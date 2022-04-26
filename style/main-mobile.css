@@ -435,6 +435,16 @@ a:hover, a:focus {
   color: red;
 }
 
+.header-main-menu svg {
+  display: block;
+  margin: 0 auto;
+  width: 90vw;
+  max-width: 800px;
+}
+.header-main-menu svg #topEnd, .header-main-menu svg #bottomEnd, .header-main-menu svg #bottomStart {
+  visibility: hidden;
+}
+
 .mobile-five-columns {
   display: flex;
   justify-content: space-between;

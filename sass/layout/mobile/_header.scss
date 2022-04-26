@@ -9,9 +9,18 @@
    
 }
 .header-main-menu svg{
+    display: block;
+    margin: 0 auto;
+    width: 90vw; // Showcase size
+    // width: 48px; // UI size
+    max-width: 800px;
+    #topEnd, #bottomEnd, #bottomStart {
+      visibility:hidden;
+    }
+
+
     
 }
 .header-main-menu-element{
-  
 }
-
+  
