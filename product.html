@@ -67,24 +67,25 @@
                                 </div>
                                 <div class="column">
                                     <div class="desktop-three-columns">
-                                            <div class="column">
-                                                <div class="quantity-minus">
-                                                    <button type="button" class="button hollow circle" data-quantity="minus" data-field="quantity">
-                                                        <i class="fa fa-minus" aria-hidden="true"></i>
-                                                      </button>
-                                                </div>
+                                        <div class="column">
+                                            <div class="quantity-minus" id="quantity-minus">
+                                                <button class="button hollow circle">
+                                                    <i class="fa fa-minus" aria-hidden="true">-</i>
+                                                </button>
                                             </div>
-                                            <div class="column">
-                                                <div class="quantity-value">
-                                                    0
-                                                </div>  
-                                            </div>
-                                            <div class="column">
-                                                <div class="quantity-plus">
-                                                    <button type="button" class="button hollow circle" data-quantity="plus" data-field="quantity">
-                                                        <i class="fa fa-plus" aria-hidden="true"></i>
-                                                </div>
+                                        </div>
+                                        <div class="column">
+                                            <div class="quantity-show">
+                                                <input type="number" value="1" id="quantity-show">
                                             </div>  
+                                        </div>
+                                        <div class="column">
+                                            <div class="quantity-plus" id="quantity-plus">
+                                                <button class="button hollow circle">
+                                                    <i class="fa fa-plus" aria-hidden="true">+</i>
+                                                </button>
+                                            </div>
+                                        </div>  
                                     </div>
                                     <div class="desktop-one-column">
                                         <div class="column">
@@ -105,7 +106,8 @@
                 
                 </div>
             </div>
-          
+            <script type="module" src="js/app.js"></script>
         </main>
+        
     </body>
 </html>

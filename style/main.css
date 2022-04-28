@@ -443,6 +443,14 @@ a:hover, a:focus {
   font-family: "Akshar", sans-serif;
 }
 
+.header-menu{
+background-color: salmon;
+}
+
+.header-menu .mLinks{
+
+}
+
 .desktop-five-columns {
   display: flex;
   justify-content: space-between;
@@ -530,7 +538,7 @@ a:hover, a:focus {
   top: 40vh;
 }
 
-.slider-button button {
+.slider-button button h3{
   background-color: rgb(199, 81, 81);
   border: none;
   border-radius: 0.3rem;
@@ -540,7 +548,9 @@ a:hover, a:focus {
 
 .category {
   position: relative;
+  height:4em;
 }
+
 
 .category-title {
   text-align: center;
@@ -549,9 +559,7 @@ a:hover, a:focus {
 }
 
 .category-element-image img {
-  position: relative;
-  left: 2rem;
-  top: 2rem;
+
 }
 
 .category-element-title {
