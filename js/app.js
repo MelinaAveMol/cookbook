@@ -65,7 +65,11 @@ tabPanel.forEach(tab => {
 
         tab.classList.add("tab-active");
 
+        relatedTabs.forEach(tabRelated) => {
+            if(){
         
+            }
+                
 
     }); 
 });
