@@ -15,9 +15,66 @@
 .product-price {
 margin-top: 1em;
 }
-.product-description{
-    margin-top: 1em;
+
+.product-details{
+    margin-bottom:1rem;
 }
+
+.tab-panel {
+    
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.tab {
+    
+    color : rgb(129, 119, 119);
+    padding: 0.2rem 0.5rem;
+}
+
+.tab-active{
+
+    background-color: rgb(241, 100, 100);
+    color: hsl(0, 0%, 100%);
+}
+
+
+.tab-panel-related{
+    display:flex;
+    margin-bottom: 1rem;
+
+}
+    .tab-related{
+
+        color: rgb(129, 119, 119);
+        padding: 0.2rem 0.5rem;
+        
+    }
+
+.tab-related-active{
+    background-color: rgb(240, 230, 230);
+    color: hsl(0, 2%, 24%);
+}
+        
+    //tab grey hover
+
+
+
+
+
+    .tab-panel {
+        /* Propiedades CSS */
+      }
+      
+    .tab-panel-mostrar {
+        /* Propiedades CSS*/
+      }
+      
+    .tab-panel-ocultar {
+        /* Propiedades CSS*/
+      }
+
+
 .quantifier{
   
 }
@@ -51,7 +108,7 @@ margin-top: 1em;
 }
 .product-add-to-cart-button{
 
-    margin-right:75%;
+    margin-right:10%;
 }
 
 .product-add-to-cart-button button{
@@ -63,5 +120,5 @@ margin-top: 1em;
     box-shadow: 0.1rem 0.1rem 0.7rem 0.2rem #000000;
     padding: 0.3rem 2rem;
     margin-top: 4.5rem;
-    margin-right:10em;
+   
 }

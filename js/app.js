@@ -38,25 +38,72 @@ if(hamburger){
 //       }
 //});
 
+
+// Tab-Panel on button plus-minus
+
+
+
+//Recorrer todos los tabs
+//Eventos a tabs
+//comprobar si alguna tab tiene tab-active
+//si la tiene= remove
+//dar al tab clickeado tab-active
+let tabPanel = document.querySelectorAll(".tab");
+let relatedTabs  = document.querySelectorAll(".tab-related");
+
+
+tabPanel.forEach(tab => {
+    
+    tab.addEventListener("click", () => {
+        
+        let activeTabs = document.querySelectorAll(".tab-active");
+        
+        activeTabs.forEach(activeTab => {
+
+            activeTab.classList.remove("tab-active");
+        }); 
+
+        tab.classList.add("tab-active");
+
+        
+
+    }); 
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //Contact form
 
-let form = document.getElementById("contact-form");
-let inputName = document.getElementById("name");
-let inputAge = document.getElementById("surname");
-let mobileButton = document.getElementById("mobile");
-let emailButton = document.getElementById("email");
-let helloButton= document.getElementById("hola");
-let sendButton = document.getElementById("form-send-button");
+//let form = document.getElementById("contact-form");
+//let inputName = document.getElementById("name");
+//let inputAge = document.getElementById("surname");
+//let mobileButton = document.getElementById("mobile");
+//let emailButton = document.getElementById("email");
+//let helloButton= document.getElementById("hola");
+//let sendButton = document.getElementById("form-send-button");
 
 
-function hello(name) {
-    alert ("Hola" + name + surname);
-}
+//function hello(name) {
+//    alert ("Hola" + name + surname);
+//}
 
-helloButton.addEventListener("click",() => {
+//helloButton.addEventListener("click",() => {
     
-    hello("Erik")
+//    hello("Erik")
 
-});
+//});
 
 

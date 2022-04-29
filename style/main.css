@@ -443,14 +443,6 @@ a:hover, a:focus {
   font-family: "Akshar", sans-serif;
 }
 
-.header-menu{
-background-color: salmon;
-}
-
-.header-menu .mLinks{
-
-}
-
 .desktop-five-columns {
   display: flex;
   justify-content: space-between;
@@ -538,7 +530,7 @@ background-color: salmon;
   top: 40vh;
 }
 
-.slider-button button h3{
+.slider-button button {
   background-color: rgb(199, 81, 81);
   border: none;
   border-radius: 0.3rem;
@@ -548,9 +540,7 @@ background-color: salmon;
 
 .category {
   position: relative;
-  height:4em;
 }
-
 
 .category-title {
   text-align: center;
@@ -559,7 +549,9 @@ background-color: salmon;
 }
 
 .category-element-image img {
-
+  position: relative;
+  left: 2rem;
+  top: 2rem;
 }
 
 .category-element-title {
@@ -663,8 +655,50 @@ background-color: salmon;
   margin-top: 1em;
 }
 
-.product-description {
-  margin-top: 1em;
+.product-details {
+  margin-bottom: 1rem;
+}
+
+.tab-panel {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.tab {
+  color: rgb(129, 119, 119);
+  padding: 0.2rem 0.5rem;
+}
+
+.tab-active {
+  background-color: rgb(241, 100, 100);
+  color: hsl(0deg, 0%, 100%);
+}
+
+.tab-panel-related {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.tab-related {
+  color: rgb(129, 119, 119);
+  padding: 0.2rem 0.5rem;
+}
+
+.tab-related-active {
+  background-color: rgb(240, 230, 230);
+  color: hsl(0deg, 2%, 24%);
+}
+
+.tab-panel {
+  /* Propiedades CSS */
+}
+
+.tab-panel-mostrar {
+  /* Propiedades CSS*/
+}
+
+.tab-panel-ocultar {
+  /* Propiedades CSS*/
 }
 
 .plus-minus-button button {
@@ -672,7 +706,7 @@ background-color: salmon;
 }
 
 .product-add-to-cart-button {
-  margin-right: 75%;
+  margin-right: 10%;
 }
 
 .product-add-to-cart-button button {
@@ -684,7 +718,6 @@ background-color: salmon;
   box-shadow: 0.1rem 0.1rem 0.7rem 0.2rem #000000;
   padding: 0.3rem 2rem;
   margin-top: 4.5rem;
-  margin-right: 10em;
 }
 
 .contact .contact-title {
