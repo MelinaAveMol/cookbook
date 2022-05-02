@@ -42,6 +42,8 @@ margin-top: 1em;
 .tab-panel-related{
     display:flex;
     margin-bottom: 1rem;
+    transform:translateY(50%);
+    transition:all .5s ease;
 
 }
     .tab-related{
