@@ -1,0 +1,11 @@
+form{
+    display:flex;
+}
+
+.select-related-options{
+
+}
+
+.select-rlated-options.active{
+    display:block;
+}
