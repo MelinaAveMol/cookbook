@@ -2,16 +2,29 @@
 
 @import "helpers/variables";
 @import "helpers/mixins";
+
+//Base
 @import "base/contents";
 @import "base/normalize";
 @import "base/typography";
+
+// Layout
 @import "layout/mobile/master";
 @import "layout/mobile/header";
 @import "layout/mobile/footer";
 @import "layout/mobile/columns";
-@import "pages/home/mobile/Renderhamburger";
-@import "pages/home/mobile/home";
-@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Just+Another+Hand&family=Roboto:wght@100&family=Square+Peg&display=swap');
 
+// Pages
+@import "pages/home/mobile/home";
+@import "pages/contact/mobile/contact";
+@import "pages/checkout/mobile/checkout";
+// @import "pages/cart/mobile/cart";
+@import "pages/product/mobile/product";
+@import "pages/products/mobile/products";
+
+// Components
+@import "components/mobile/tabs";
+@import "components/mobile/hamburger";
+@import "components/mobile/plusMinusButton";
+// @import "components/mobile/categories";
 
