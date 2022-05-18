@@ -1,5 +1,6 @@
 form{
     display:flex;
+    background: pink;
 }
 
 .select-related-options{
@@ -7,5 +8,5 @@ form{
 }
 
 .select-rlated-options.active{
-    display:block;
+   
 }
