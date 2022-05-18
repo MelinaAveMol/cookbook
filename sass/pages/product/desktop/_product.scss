@@ -20,94 +20,10 @@ margin-top: 1em;
     margin-bottom:1rem;
 }
 
-.tab-panel {
-    
-    display: flex;
-    margin-bottom: 1rem;
-}
-
-.tab {
-    
-    color : rgb(129, 119, 119);
-    padding: 0.2rem 0.5rem;
-}
-
-.tab-active{
-
-    background-color: rgb(241, 100, 100);
-    color: hsl(0, 0%, 100%);
-}
-
-
-.tab-panel-related{
-    display:flex;
-    margin-bottom: 1rem;
-    transform:translateY(50%);
-    transition:all .5s ease;
-
-}
-    .tab-related{
-
-        color: rgb(129, 119, 119);
-        padding: 0.2rem 0.5rem;
-        
-    }
-
-.tab-related-active{
-    background-color: rgb(240, 230, 230);
-    color: hsl(0, 2%, 24%);
-}
-        
-    //tab grey hover
-
-
-
-
-
-    .tab-panel {
-        /* Propiedades CSS */
-      }
-      
-    .tab-panel-mostrar {
-        /* Propiedades CSS*/
-      }
-      
-    .tab-panel-ocultar {
-        /* Propiedades CSS*/
-      }
-
-
-.quantifier{
-  
-}
 .plus-minus-button button{
     background-color: rgb(163, 189, 189);
+}  
 
-
-}
-.quantity-minus{
-    
-    
- 
-}
-
-
-.quantity-value{
-    
-    
-}
-.quantity-plus{
-  
-}
-
-.plus-minus-button{
-  
-    
-    
-}
-.plus-minus-button .plus button{
-    
-}
 .product-add-to-cart-button{
 
     margin-right:10%;
