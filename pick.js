@@ -4,7 +4,7 @@ export let renderPicks = () =>{
 
     picksRelated.forEach(pickedRelated => {
 
-        pickedRelated.addEventListener("redo", () =>{
+        pickedRelated.addEventListener("change", () =>{
 
            let pickedRelatedOptions = pickedRelated.closest('.form-training').querySelectorAll('.picked-related-options');
            

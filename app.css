@@ -3,10 +3,18 @@ form{
     background: pink;
 }
 
-.select-related-options{
-
-}
-
-.select-rlated-options.active{
+.picked-related-options {
+    visibility: hidden;
    
 }
+.picked-related .active {
+    visibility: visible;
+   
+}
+
+
+
+
+/
+
+
