@@ -1,0 +1,95 @@
+.main{
+    display:revert;
+    font-family: 'akshar';
+    padding: 1rem 2%;
+    width: 20%;
+    margin: left;
+    width: 100%;
+    size:1em;
+}
+.header-main-title h3{
+    
+    
+    color: #db4213;
+    font-size: 1.5em;
+   
+    padding-top: 0.5rem;
+    
+    margin-top: 2emem;
+}
+
+    .product-title h2{
+    padding-left: 1em;
+    font-size: 1em;
+    padding-top:0.5em;
+}
+
+span{
+    padding-left: 1em;
+    padding-top:0.5em;
+
+}
+.product-details p{
+    padding-left: 1em;
+    font-size: 0.5;
+
+}
+
+  
+
+
+.hamburger {
+    display: block;
+    position: relative;
+    z-index: 4;
+    margin-left: 6.5em;
+
+    
+  }
+  
+  .hamburger span{
+    display: block;
+    width: 1em;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    color:red;
+    border-radius: 3px;
+    z-index: 4;
+    transform-origin: 4px 0px;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;    
+  
+  }
+  .hamburger span:first-child {
+    transform-origin: 0% 0%;
+  }
+  
+  .hamburger span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+  }
+  
+  .hamburger.active span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-18px, -20px);
+    background: 0.232323;
+  }
+  
+  .hamburger.active span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+  
+  .hamburger.active span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, 2px);
+  }
+  
+  .hamburger input:checked ~ ul {
+    transform: none;
+  }
+  
+
+
+
+.product-image img{
+    width: 55%;
+}
