@@ -1,7 +1,9 @@
-import { renderHamburger } from "./mobile/renderHamburger.js";
-import {renderTabs} from "./mobile/renderTabs.js";
+// import { hamburger } from "./hamburger.js";
+// import {tabs} from "./tabs.js";
+import {renderAccordion} from"./renderAccordion.js";
 
-
-
-
-renderHamburger();
+import{accordion} from"./accordion.js";
+// hamburger();
+// tabs();
+renderAccordion();
+accordion();

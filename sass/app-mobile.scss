@@ -18,13 +18,23 @@
 @import "pages/home/mobile/home";
 @import "pages/contact/mobile/contact";
 @import "pages/checkout/mobile/checkout";
-// @import "pages/cart/mobile/cart";
+@import "pages/trolley/mobile/trolley";
 @import "pages/product/mobile/product";
 @import "pages/products/mobile/products";
+@import "pages/faqs/mobile/faqs";
 
 // Components
 @import "components/mobile/tabs";
-@import "components/mobile/hamburger";
+// @import "components/mobile/hamburger";
 @import "components/mobile/plusMinusButton";
+@import "components/mobile/tabs";
+// @import "components/mobile/pickedTabs";
+// @import "components/mobile/trolleyResumeTable";
+@import "components/mobile/accordion";
+
 // @import "components/mobile/categories";
+
+
+
+
 

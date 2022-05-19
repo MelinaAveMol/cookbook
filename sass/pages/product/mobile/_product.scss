@@ -34,62 +34,43 @@ span{
     font-size: 0.5;
 
 }
-
   
-
-
-.hamburger {
-    display: block;
-    position: relative;
-    z-index: 4;
-    margin-left: 6.5em;
-
-    
-  }
-  
-  .hamburger span{
-    display: block;
-    width: 1em;
-    height: 4px;
-    margin-bottom: 5px;
-    position: relative;
-    color:red;
-    border-radius: 3px;
-    z-index: 4;
-    transform-origin: 4px 0px;
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;    
-  
-  }
-  .hamburger span:first-child {
-    transform-origin: 0% 0%;
-  }
-  
-  .hamburger span:nth-last-child(2) {
-    transform-origin: 0% 100%;
-  }
-  
-  .hamburger.active span {
-    opacity: 1;
-    transform: rotate(45deg) translate(-18px, -20px);
-    background: 0.232323;
-  }
-  
-  .hamburger.active span:nth-last-child(3) {
-    opacity: 0;
-    transform: rotate(0deg) scale(0.2, 0.2);
-  }
-  
-  .hamburger.active span:nth-last-child(2) {
-    transform: rotate(-45deg) translate(0, 2px);
-  }
-  
-  .hamburger input:checked ~ ul {
-    transform: none;
-  }
-  
-
-
+ 
 
 .product-image img{
     width: 55%;
+}
+
+.products-details{
+  margin-top:2.5em;
+
+}
+
+.quantity-show {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+
+  .quantity-show title {
+      color: hsl(0, 0%, 100%);
+      font-weight: bold;
+  }
+}
+
+.product-view-info-add-to-cart {
+  display: flex;
+  justify-content: center;
+
+  .add-to-cart-button {
+
+      button {
+          background: linear-gradient(to top, hsl(46, 100%, 30%), hsl(240, 9%, 23%));
+          border: 2px solid hsl(0, 0%, 50%);
+          border-radius: 10px;
+          color: hsl(0, 0%, 100%);
+          margin-top: 8%;
+          padding: 10%;
+          width: 100%;
+      }
+  }
 }

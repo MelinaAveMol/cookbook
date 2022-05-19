@@ -669,53 +669,33 @@ svg {
   margin-right: 1rem;
 }
 
-.main {
-  display: revert;
-  font-family: "akshar";
-  padding: 1rem 2%;
-  width: 20%;
-  margin: left;
+.header-main {
+  width: 2em;
+  border-top: 0.2rem solid rgb(238, 13, 13);
+  padding: 1.5rem 5%;
+  margin: 0 auto;
   width: 100%;
-  size: 1em;
 }
 
-.header-main-title h3 {
-  color: #db4213;
-  font-size: 1.5em;
-  padding-top: 0.5rem;
-  margin-top: 2emem;
-}
-
-.product-title h2 {
-  padding-left: 1em;
-  font-size: 1em;
-  padding-top: 0.5em;
-}
-
-span {
-  padding-left: 1em;
-  padding-top: 0.5em;
-}
-
-.product-details p {
-  padding-left: 1em;
-  font-size: 0.5;
+.header-main-title {
+  padding-left: 2.5em;
 }
 
 .hamburger {
   display: block;
   position: relative;
   z-index: 4;
-  margin-left: 6.5em;
+  margin-left: 20em;
+  margin-top: -3em;
 }
 
 .hamburger span {
   display: block;
-  width: 1em;
+  width: 33px;
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  color: red;
+  background: rgb(240, 4, 4);
   border-radius: 3px;
   z-index: 4;
   transform-origin: 4px 0px;
@@ -749,8 +729,69 @@ span {
   transform: none;
 }
 
+.main {
+  display: revert;
+  font-family: "akshar";
+  padding: 1rem 2%;
+  width: 20%;
+  margin: left;
+  width: 100%;
+  size: 1em;
+}
+
+.header-main-title h3 {
+  color: #db4213;
+  font-size: 1.5em;
+  padding-top: 0.5rem;
+  margin-top: 2emem;
+}
+
+.product-title h2 {
+  padding-left: 1em;
+  font-size: 1em;
+  padding-top: 0.5em;
+}
+
+span {
+  padding-left: 1em;
+  padding-top: 0.5em;
+}
+
+.product-details p {
+  padding-left: 1em;
+  font-size: 0.5;
+}
+
 .product-image img {
   width: 55%;
+}
+
+.products-details {
+  margin-top: 2.5em;
+}
+
+.quantity-show {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.quantity-show .quantity-show title {
+  color: hsl(0deg, 0%, 100%);
+  font-weight: bold;
+}
+
+.product-view-info-add-to-cart {
+  display: flex;
+  justify-content: center;
+}
+.product-view-info-add-to-cart .add-to-cart-button button {
+  background: linear-gradient(to top, hsl(46deg, 100%, 30%), hsl(240deg, 9%, 23%));
+  border: 2px solid hsl(0deg, 0%, 50%);
+  border-radius: 10px;
+  color: hsl(0deg, 0%, 100%);
+  margin-top: 8%;
+  padding: 10%;
+  width: 100%;
 }
 
 .header-main {
@@ -882,6 +923,97 @@ span {
 
 .products-gallery .product .pick h3 {
   margin-top: 0.5em;
+}
+
+.main-faqs h3 {
+  margin-top: 1.5em;
+}
+
+.question span {
+  color: red;
+  margin-top: 4em;
+}
+
+.main-question {
+  margin-top: 2.5em;
+}
+
+.pointer svg {
+  display: none;
+}
+
+.reply {
+  margin-top: 1em;
+}
+
+.header-main-title h3 {
+  margin-top: 0.5em;
+}
+
+.header-mobile-menu-button- svg {
+  display: block;
+  position: relative;
+  width: 3em;
+  margin-left: 6em;
+  margin-top: 1.5em;
+}
+
+.hamburger span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: hsl(0deg, 0%, 90%);
+  border-radius: 3px;
+  z-index: 4;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+}
+
+.pointer svg {
+  margin-left: 15em;
+}
+
+.faqs {
+  padding: 0 auto;
+  text-align: center;
+}
+
+.main-question {
+  color: red;
+  opacity: 0.5;
+}
+
+.tab-panel {
+  display: flex;
+}
+
+.tab {
+  color: rgb(129, 119, 119);
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+}
+
+.tab.active {
+  background-color: rgb(241, 100, 100);
+  color: hsl(0deg, 0%, 100%);
+}
+
+.tab-panel-related {
+  margin-bottom: 1rem;
+}
+
+.tab-related {
+  color: rgb(129, 119, 119);
+  display: none;
+  padding: 1rem;
+}
+
+.tab-related.active {
+  background-color: rgb(240, 230, 230);
+  color: hsl(0deg, 2%, 24%);
+  display: block;
 }
 
 .tab-panel {
