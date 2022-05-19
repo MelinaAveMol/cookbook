@@ -28,51 +28,51 @@
 
 // }
 
-// SEGUNDO INTENTO
+//SEGUNDO INTENTO
 
-// export let renderAccordion = () => {}
+export let renderAccordion = () => {}
 
-//     let questions = document.querySelectorAll(".question");
+    let questions = document.querySelectorAll(".question");
 
 
-//     //console.log();
+    //console.log();
 
-//     if(questions){
-//         questions.forEach((question, i) => {
+    if(questions){
+        questions.forEach((question, i) => {
 
-//             question.addEventListener ("click", () => {
+            question.addEventListener ("click", () => {
             
-//             let replies = document.querySelectorAll(".reply")
-//             replies[i].classList.toggle("active")
+            let replies = document.querySelectorAll(".reply")
+            replies[i].classList.toggle("active")
             
-//             let pointer = document.querySelectorAll(".pointer")
-//             pointer [i].classList.toggle("active")
+            let pointer = document.querySelectorAll(".pointer")
+            pointer [i].classList.toggle("active")
             
-//         });        
-//     });
-// }
-
-//TERCER INTENTO 
-
-
-export let question = () => {
-
-let questions = document.querySelectorAll(".question");
-
-questions.forEach((event)=> {
-    event.addEventListener("click" , () =>{
-
-        if (event.classList.contains("active")) {
-            event.classList.remove("active");
-
-        }else {
-
-            event.classList.add("active");
-
-        }
+        });        
     });
-
-
-});
-
 }
+
+// //TERCER INTENTO 
+
+
+// export let question = () => {
+
+// let questions = document.querySelectorAll(".question");
+
+// questions.forEach((event)=> {
+//     event.addEventListener("click" , () =>{
+
+//         if (event.classList.contains("active")) {
+//             event.classList.remove("active");
+
+//         }else {
+
+//             event.classList.add("active");
+
+//         }
+//     });
+
+
+// });
+
+// }
