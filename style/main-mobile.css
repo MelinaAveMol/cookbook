@@ -786,6 +786,64 @@ a:hover, a:focus {
   color: rgb(44, 41, 41);
   padding-bottom: 1em;
 }
+.header-logo-title {
+  width: 1em;
+  color: hsl(355deg, 95%, 61%);
+}
+
+.checkout {
+  background-color: hsl(355deg, 95%, 61%);
+  border-top: 0.4em solid hsl(46deg, 100%, 20%);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 5%;
+  width: 90%;
+}
+.checkout .desktop-two-columns {
+  display: flex;
+  flex-direction: column;
+}
+.checkout .checkout-form {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.checkout .checkout-form label {
+  margin-left: 0.3rem;
+  color: hsl(0deg, 0%, 100%);
+}
+.checkout .checkout-form input, .checkout .checkout-form select {
+  margin: 1rem 0;
+  width: 100%;
+}
+.checkout .checkout-form select {
+  padding: 0.6rem;
+}
+.checkout .checkout-table {
+  color: white;
+}
+.checkout .checkout-payment {
+  margin: 1rem;
+}
+.checkout .checkout-payment .checkout-payment-radio {
+  margin: 1rem;
+}
+.checkout .checkout-payment .checkout-payment-radio .trolley-resume-table {
+  color: hsl(0deg, 0%, 100%);
+}
+.checkout .checkout-payment .checkout-payment-radio input {
+  margin: 1rem;
+}
+.checkout .checkout-payment button {
+  background: linear-gradient(to top, hsl(355deg, 68%, 60%), hsl(240deg, 9%, 23%));
+  border: 2px solid hsl(0deg, 7%, 87%);
+  border-radius: 10px;
+  color: hsl(0deg, 0%, 100%);
+  margin-top: 8%;
+  padding: 10%;
+  width: 100%;
+}
+
 .main {
   display: revert;
   font-family: "akshar";
